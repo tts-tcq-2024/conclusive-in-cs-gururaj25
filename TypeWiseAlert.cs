@@ -1,3 +1,6 @@
+namespace Conclusive
+{
+
 public class TypewiseAlert
 {
     public enum BreachType
@@ -84,4 +87,5 @@ public class TypewiseAlert
             EmailActions[breachType](recepient);
         }
     }
+}
 }
