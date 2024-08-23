@@ -1,5 +1,7 @@
 using System;
 using Xunit;
+namespace Conclusive
+{
 
 public class TypewiseAlertTests
 {
@@ -105,4 +107,4 @@ public class TypewiseAlertTests
     }
 }
 
-
+}
