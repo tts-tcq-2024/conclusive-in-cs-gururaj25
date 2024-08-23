@@ -1,3 +1,7 @@
+
+namespace Conclusive
+{
+
 public class ConsoleOutput : IDisposable
 {
     private readonly System.IO.StringWriter stringWriter;
@@ -20,4 +24,5 @@ public class ConsoleOutput : IDisposable
         Console.SetOut(originalOutput);
         stringWriter.Dispose();
     }
+}
 }
